@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_prep_class_names",
+  "source_file": "utl-altair-slc-excel-using-undocumented-excel-vba-and-sql-functions-to-prepare-a-sheet-for-import.sas",
+  "source_blob_sha": "c769253a402253656e0fcf0d0cd5c0e351bddbc3",
+  "source_commit": "872f641b7cff82ee8aa733f3905160a57f854a1a",
+  "notes": "Portable-SAS core of the recipe: the input DATA step (name=cats('%',name,'%'), the 6 class rows) plus the 'remove %' data-prep transformation the repo demonstrates (upstream does replace(name,'%','') via Excel/ODBC pass-through; here compress(name,'%') in base SAS gives the same result) with the recipe's $hex. verification columns. Reproduces the documented WORKX.TAB output. Excel libname/ODBC DSN/PowerShell/PROC R paths are Windows/Altair-SLC-specific and not shipped."
+}

@@ -1,0 +1,10 @@
+
+    name          name_hex  sex  clean_name_hex  age  clean_name
+--------  ----------------  ---  --------------  ---  ----------
+%Alfred%  25416C6672656425  M    416C66726564     14  Alfred
+%Alice%   25416C69636525    F    416C696365       13  Alice
+%Barbara  2542617262617261  F    42617262617261   13  Barbara
+%Carol%   254361726F6C25    F    4361726F6C       14  Carol
+%Henry%   2548656E727925    M    48656E7279       14  Henry
+%James%   254A616D657325    M    4A616D6573       12  James
+
